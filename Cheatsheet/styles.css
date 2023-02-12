@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+
+
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+body{
+	width:auto;
+	display: block;
+	margin: 0 auto;
+	background-color: blanchedalmond;
+}
+
+h1{
+	text-align: center;
+	position: relative;
+	margin-top: 15px;
+	border-top: 4px dotted rgba(0, 0, 0, 0.664);
+	border-bottom: 4px dotted rgba(0, 0, 0, 0.664);
+}
+table{
+	border: 2px solid black;
+	max-width: 98%;
+	text-align: left;
+	margin: 0 auto;
+	margin-top: 15px;
+	overflow: scroll;
+
+
+}
+td{
+	border: 1px dotted black;
+}
+thead{
+	background-color: gray;
+	text-align: center;
+}
+.term{
+	background-color: lightgray;
+	width: 81px;	
+	text-align: center;
+}
+.Description{
+	background-color: rgb(252, 248, 240);
+    height: 45px;
+    width: 582px;
+}
+.use{
+	background-color: rgb(241, 239, 239);
+	width: 211px;
+	text-align: center;
+}
